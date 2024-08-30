@@ -5,6 +5,7 @@ metadata:
   labels:
     run: kbot-temp
   name: kbot-temp
+  namespace: test
 spec:
   containers:
   - image: vvadymv/kbot:v1.1.1-9e59736-linux-amd64
