@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: kbot-temp
+  name: kbot-temp
+spec:
+  containers:
+  - image: vvadymv/kbot:v1.1.1-6c906e7-linux-amd64
+    name: kbot-temp
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
