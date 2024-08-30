@@ -8,7 +8,7 @@ metadata:
   namespace: test
 spec:
   containers:
-  - image: vvadymv/kbot:v1.1.1-9e59736-linux-amd64
+  - image: ghcr.io/vvadymv/kbot:v1.1.1-3a0f514-linux-amd64
     name: kbot-temp
     resources: {}
   dnsPolicy: ClusterFirst
